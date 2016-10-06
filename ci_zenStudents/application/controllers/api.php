@@ -21,6 +21,7 @@ class Api extends REST_Controller{
   function student_get(){
     $this->data[1] = array('name' => 'Pramod', 'age'=>'29');
     $this->data[2] = array('name' => 'Shwetha', 'age'=>'28');
+    $this->data[3] = ['one','two','three'];
     $this->response($this->data);
   }//end:get_students
 
