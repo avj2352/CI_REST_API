@@ -30,3 +30,9 @@ function student_get(){
   $this->response($this->data);
 }//end:get_students
 ```
+
+### You can use URI indexes instead of getting parameters
+
+```
+
+```
